@@ -11,13 +11,12 @@ Hope You Will Like The project. also u can use the code to make your own version
 
 ###  DEMO 
 
-<!-- ![PlanetSimulation](https://user-images.githubusercontent.com/91308138/161219844-96994df6-8c76-4c35-9648-c0140b37562c.gif) -->
+![Simulation](https://user-images.githubusercontent.com/91308138/170760432-3154930e-95c6-4d1e-a887-ab89fc574e6f.gif)
 
 PLEASE FEEL FREE TO FORK THE PROJECT AND START CONTRIBUTING. :)
 
 ### Code Discussion
 The system described in the code consists of the Sun, Earth, and Venus, so the main() function creates three Body instances for each body and passed to the loop() function.
-
 The loop() function is the heart of the simulation, taking a list of Body instances and then performing simulation steps forever. The time step chosen is one day, which works well for our Sun/Earth/Venus example. When you run the program, you can see how long it takes for the plot to complete an entire orbit; for Earth it’s the expected 365 days and for Venus it’s 224 days.
 
 ## PRE-REQUISITES
